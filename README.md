@@ -32,7 +32,7 @@ Pomodoro-Timer/
 ├── README.md        
 
 ▶️ How to Run
-Make sure Python is installed (python --version)
+Make sure Python is installed (python --version).
 Clone or download the repository.
 Place tomato.png in the same folder as main.py.
 Run the program:
