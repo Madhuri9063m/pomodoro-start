@@ -1,4 +1,4 @@
-A Pomodoro Timer built using Python's Tkinter GUI library, designed to help users manage their time efficiently using the popular Pomodoro Technique — a time management method that breaks work into intervals, traditionally 25 minutes in length, separated by short breaks.
+A Pomodoro Timer built using Python's Tkinter GUI library, designed to help users manage their time efficiently using the popular Pomodoro Technique — a time management method that breaks work into intervals, traditionally 25 minutes in length, separated by short breaks. 
 
 📌 Features
 🍅 Visually appealing tomato-themed timer (uses an image)
@@ -7,7 +7,7 @@ A Pomodoro Timer built using Python's Tkinter GUI library, designed to help user
 🔴 20-minute long break after 4 work sessions
 ✔️ Tick marks to indicate completed work sessions
 ▶️ Start and 🔁 Reset buttons
-Simple, minimalistic GUI made using Tkinter
+Simple, minimalistic GUI made using Tkinter.
 
 🛠️ Technologies Used
 Python 3
