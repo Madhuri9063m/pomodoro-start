@@ -11,15 +11,7 @@ LONG_BREAK_MIN = 20
 reps = 0
 updated = 2
 timer = None
-# ---------------------------- TIMER RESET ------------------------------- # 
 
-
-
-
-# ---------------------------- TIMER MECHANISM ------------------------------- # 
-
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
-#USE after()
 def count_down(count):
     global reps
     global timer
@@ -74,16 +66,10 @@ def display_count():
 button = Button(text="start",width=5,height=1, font=("Arial",10,"normal"), command=display_count)
 button.grid(row=2,column=1)
 
-# def reset_timer():
-#     global timer
-#     window.after_cancel(timer)
-#     canvas.itemconfig(count_text, "00:00")
-#     text_label["text"] = "Timer"
-
 def reset_timer():
     global timer, reps
     window.after_cancel(timer)  # Stop the countdown
-    canvas.itemconfig(count_text, text="00:00")  # ⛔ You had a small typo here
+    canvas.itemconfig(count_text, text="00:00")  
     text_label.config(text="Timer", fg=GREEN)  # Reset the main label
     tick_label.config(text="")  # Clear checkmarks
     reps = 0  # Reset the repetition counter
